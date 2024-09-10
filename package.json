@@ -1,0 +1,25 @@
+{
+  "name": "eth-deposit-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "depositTracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon depositTracker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.7",
+    "axios": "^1.7.7",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.4.0",
+    "mongoose": "^8.6.1",
+    "nodemon": "^3.1.4",
+    "web3": "^1.0.0",
+    "web3-providers-ws": "^4.0.8",
+    "winston": "^3.14.2"
+  }
+}
